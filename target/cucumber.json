@@ -1,0 +1,1227 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-26T22:47:36.333Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.bleuCrm.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "user should be able to login",
+        "description": "",
+        "id": "login;user-should-be-able-to-login",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.bleuCrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the user enters the credentials as a \"helpdesk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"helpdesk\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.bleuCrm.step_definitions.LoginStepDefs.the_user_enters_the_credentials_as_a(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the title contains \"Portal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Portal\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.bleuCrm.step_definitions.LoginStepDefs.the_title_contains(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the user enters the credentials as a \"helpdesk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"helpdesk\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.bleuCrm.step_definitions.LoginStepDefs.the_user_enters_the_credentials_as_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user clicks the filter and search box",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_clicks_the_search_box()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-26T22:47:36.426Z",
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.bleuCrm.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "See default filters",
+        "description": "",
+        "id": "filter-and-search;see-default-filters",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.bleuCrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "the user should see following default filters",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_should_see_following_default_filters(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "my activity"
+                ]
+              },
+              {
+                "cells": [
+                  "work"
+                ]
+              },
+              {
+                "cells": [
+                  "favorite"
+                ]
+              },
+              {
+                "cells": [
+                  "announcements"
+                ]
+              },
+              {
+                "cells": [
+                  "workflows"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the user enters the credentials as a \"helpdesk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"helpdesk\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.bleuCrm.step_definitions.LoginStepDefs.the_user_enters_the_credentials_as_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user clicks the filter and search box",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_clicks_the_search_box()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-26T22:47:36.443Z",
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.bleuCrm.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "See the added fields",
+        "description": "",
+        "id": "filter-and-search;see-the-added-fields;;2",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.bleuCrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "the user clicks the add field",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_clicks_the_add_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "the user selects the \"Date\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Date\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_selects_the(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "the user should see the title of field as a \"Date\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Date\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_should_see_the_title_of_field_as_a(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the user enters the credentials as a \"helpdesk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"helpdesk\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.bleuCrm.step_definitions.LoginStepDefs.the_user_enters_the_credentials_as_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user clicks the filter and search box",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_clicks_the_search_box()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-26T22:47:36.452Z",
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.bleuCrm.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "See the added fields",
+        "description": "",
+        "id": "filter-and-search;see-the-added-fields;;3",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.bleuCrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "the user clicks the add field",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_clicks_the_add_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "the user selects the \"Type\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Type\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_selects_the(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "the user should see the title of field as a \"Type\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Type\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_should_see_the_title_of_field_as_a(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the user enters the credentials as a \"helpdesk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"helpdesk\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.bleuCrm.step_definitions.LoginStepDefs.the_user_enters_the_credentials_as_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user clicks the filter and search box",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_clicks_the_search_box()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-26T22:47:36.458Z",
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.bleuCrm.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "See the added fields",
+        "description": "",
+        "id": "filter-and-search;see-the-added-fields;;4",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.bleuCrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "the user clicks the add field",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_clicks_the_add_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "the user selects the \"Author\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Author\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_selects_the(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "the user should see the title of field as a \"Author\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Author\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_should_see_the_title_of_field_as_a(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the user enters the credentials as a \"helpdesk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"helpdesk\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.bleuCrm.step_definitions.LoginStepDefs.the_user_enters_the_credentials_as_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user clicks the filter and search box",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_clicks_the_search_box()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-26T22:47:36.467Z",
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.bleuCrm.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "See the added fields",
+        "description": "",
+        "id": "filter-and-search;see-the-added-fields;;5",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.bleuCrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "the user clicks the add field",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_clicks_the_add_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "the user selects the \"To\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"To\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_selects_the(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "the user should see the title of field as a \"To\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"To\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_should_see_the_title_of_field_as_a(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the user enters the credentials as a \"helpdesk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"helpdesk\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.bleuCrm.step_definitions.LoginStepDefs.the_user_enters_the_credentials_as_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user clicks the filter and search box",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_clicks_the_search_box()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-26T22:47:36.473Z",
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.bleuCrm.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "See the added fields",
+        "description": "",
+        "id": "filter-and-search;see-the-added-fields;;6",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.bleuCrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "the user clicks the add field",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_clicks_the_add_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "the user selects the \"Favorites\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Favorites\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_selects_the(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "the user should see the title of field as a \"Favorites\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Favorites\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_should_see_the_title_of_field_as_a(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the user enters the credentials as a \"helpdesk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"helpdesk\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.bleuCrm.step_definitions.LoginStepDefs.the_user_enters_the_credentials_as_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user clicks the filter and search box",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_clicks_the_search_box()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-26T22:47:36.479Z",
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.bleuCrm.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "See the added fields",
+        "description": "",
+        "id": "filter-and-search;see-the-added-fields;;7",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.bleuCrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "the user clicks the add field",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_clicks_the_add_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "the user selects the \"Tag\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tag\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_selects_the(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "the user should see the title of field as a \"Tag\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tag\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_should_see_the_title_of_field_as_a(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the user enters the credentials as a \"helpdesk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"helpdesk\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.bleuCrm.step_definitions.LoginStepDefs.the_user_enters_the_credentials_as_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user clicks the filter and search box",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_clicks_the_search_box()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-26T22:47:36.487Z",
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.bleuCrm.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "See the added fields",
+        "description": "",
+        "id": "filter-and-search;see-the-added-fields;;8",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.bleuCrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "the user clicks the add field",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_clicks_the_add_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "the user selects the \"Extranet\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Extranet\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_selects_the(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "the user should see the title of field as a \"Extranet\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Extranet\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_should_see_the_title_of_field_as_a(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the user enters the credentials as a \"helpdesk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"helpdesk\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.bleuCrm.step_definitions.LoginStepDefs.the_user_enters_the_credentials_as_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user clicks the filter and search box",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_clicks_the_search_box()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-26T22:47:36.518Z",
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.bleuCrm.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "remove the added fields that are default",
+        "description": "",
+        "id": "filter-and-search;remove-the-added-fields-that-are-default",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.bleuCrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "the user clicks the add field",
+            "match": {
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_clicks_the_add_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "the user selects the \"Date\" to remove",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Date\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.bleuCrm.step_definitions.searchFilterDefs.the_user_selects_the_to_remove(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 37,
+            "name": "the user should NOT be able to click",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Filter and Search",
+    "description": "",
+    "id": "filter-and-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/search.feature",
+    "tags": []
+  }
+]
